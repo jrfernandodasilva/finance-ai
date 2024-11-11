@@ -34,3 +34,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Technologies
+
+- Next.js https://nextjs.org
+- Tailwind CSS https://tailwindcss.com
+- TypeScript https://www.typescriptlang.org
+- Prisma https://www.prisma.io
+
+
+## Commands
+
+#### Create Next.js App
+```bash
+npx create-next-app@v14.2.17
+```
+
+#### Prisma
+- Install prisma: `npm install prisma@5.21.1`
+- Start prisma: `npx prisma init`
+- Format prisma: `npx prisma format`
+- Create migration: `npx prisma migrate dev --name init_db`
