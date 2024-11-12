@@ -42,16 +42,37 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - TypeScript https://www.typescriptlang.org
 - Prisma https://www.prisma.io
 
-
 ## Commands
 
 #### Create Next.js App
+
 ```bash
 npx create-next-app@v14.2.17
 ```
 
 #### Prisma
+
 - Install prisma: `npm install prisma@5.21.1`
 - Start prisma: `npx prisma init`
 - Format prisma: `npx prisma format`
 - Create migration: `npx prisma migrate dev --name init_db`
+
+#### Prettier-plugin-tailwindcss
+
+```bash
+npm install -D prettier prettier-plugin-tailwindcss
+```
+
+See more: https://tailwindcss.com/blog/automatic-class-sorting-with-prettier
+
+⚠ Important: On VSCode, install the Prettier and ESLint extensions and set the following settings:
+
+```json
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+},
+"editor.tabSize": 2,
+"editor.detectIndentation": false,
+```
