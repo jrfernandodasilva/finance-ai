@@ -41,6 +41,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 - Tailwind CSS https://tailwindcss.com
 - TypeScript https://www.typescriptlang.org
 - Prisma https://www.prisma.io
+- ShadCN: https://ui.shadcn.com
 
 ## Commands
 
